@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Survey</title>
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+
+
+      <header class="header">
+        <img src="./Assets/logo.png" alt="" class="logo" />
+        <div class="header-text">
+          <p>
+            Thank you for signing up at Netflix. Tell us more about yourself.
+          </p>
+        </div>
+      </header>
+
+
+      <div class="form-main-container">
+        <form action="#" class="main-form">
+
+            <div class="form-inputs">
+
+            <!-- Name -->
+            <div class="sub-input-wrapper">
+                <label class="label" for="name">Name</label>
+                <input class="input" type="text" name="name" id="name" placeholder="Write your name" />
+            </div>
+
+            <!-- Age -->
+            <div class="sub-input-wrapper">
+                <label class="label" for="age">Age</label>
+                <input class="input" type="text" name="age" id="age" placeholder="Enter your age" />
+            </div>
+
+            <!-- Email -->
+            <div class="sub-input-wrapper">
+                <label class="label" for="email">E-mail</label>
+                <input class="input" type="email" name="email" id="email" placeholder="example@netflix.com" />
+            </div>
+
+            <!-- Content type -->
+            <div class="sub-input-wrapper">
+                <label class="label" for="content-type">Content Type</label>
+                <select name="content-type" id="content-type" class="input">
+                    <option value="">Please select</option>
+                    <option value="movies">Movies</option>
+                    <option value="series">Series</option>
+                </select>
+            </div>
+
+            <!-- Movie Type -->
+            <div class="sub-input-wrapper">
+                <label class="label" for="content-type">Content Type</label>
+
+                <div class="options">
+                    <div class="option-sub">
+                        <input type="checkbox" name="comedy" id="comedy" class="checkbox">
+                        <label for="comedy" class="label small">Comedy</label>
+                    </div>
+
+                    <div class="option-sub">
+                        <input type="checkbox" name="action" id="action" class="checkbox">
+                        <label for="action" class="label small">Action</label>
+                    </div>
+
+                    <div class="option-sub">
+                        <input type="checkbox" name="romance" id="romance" class="checkbox" checked>
+                        <label for="romance" class="label small">Romance</label>
+                    </div>
+                
+                </div>
+            </div>
+
+            <!-- Gender Type -->
+            <div class="sub-input-wrapper">
+                <label class="label" for="content-type">Gender</label>
+
+                <div class="options">
+                    <div class="option-sub">
+                        <input type="radio" name="gender" id="male" value="male" class="checkbox">
+                        <label for="male" class="label small">Male</label>
+                    </div>
+
+                    <div class="option-sub">
+                        <input type="radio" name="gender" id="Female" value="Female" class="checkbox">
+                        <label for="Female" class="label small">Female</label>
+                    </div>
+
+                    <div class="option-sub">
+                        <input type="radio" name="gender" id="not-specified" value="not-specified" class="checkbox" checked>
+                        <label for="not-specified" class="label small">Other</label>
+                    </div>
+                
+                </div>
+            </div>
+
+            <!-- Feedback area -->
+            <div class="sub-input-wrapper">
+              <label class="label" for="feedback">Feedback</label>
+              <textarea name="feedback" id="feedback" cols="30" rows="10" class="input" placeholder="Enter your comments"></textarea>
+          </div>
+
+
+
+            </div>
+
+            <!-- button -->
+            <button class="btn">Send</button>
+
+
+        </form>
+      </div>
+
+
+
+
+
+    </div>
+  </body>
+</html>
