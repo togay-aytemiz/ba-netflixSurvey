@@ -1,1 +1,1 @@
-# ba-netflixSurvey
+https://togay-aytemiz.github.io/ba-netflixSurvey/
